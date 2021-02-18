@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="CriticalValue"/>
+    <fullyQualifiedTypeName name="IllegalValue"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+</qualifiedTypeNameHistroy>

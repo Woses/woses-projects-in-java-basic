@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;IbanBerechnen.leanderkennungmistkacke(...)&apos; to &apos;leanderkennungen&apos;&#x0D;&#x0A;- Original project: &apos;u05a03&apos;&#x0D;&#x0A;- Original element: &apos;IbanBerechnen.leanderkennungmistkacke(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;IbanBerechnen.leanderkennungen(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;leanderkennungmistkacke&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{IbanBerechnen.java[IbanBerechnen~leanderkennungmistkacke~QString;" name="leanderkennungen" references="true" stamp="1607336346328" version="1.0"/>
+</session>
