@@ -1,6 +1,3 @@
-/*
- * @author tmansf2s
- */
 
 import java.util.*;
 

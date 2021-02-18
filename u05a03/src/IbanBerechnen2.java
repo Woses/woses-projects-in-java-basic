@@ -1,6 +1,3 @@
-/*
- * @author tmansf2s
- */
 
 import java.util.*;
 
@@ -12,7 +9,6 @@ public class IbanBerechnen2 {
 		String bankleitzahl = sc.next();
 		String kontonummer = sc.next();
 		String laendercodeup = laendercode.toUpperCase();
-
 		erzeugeIban(laendercodeup, bankleitzahl, kontonummer);
 		System.out.println(erzeugeIban(laendercodeup, bankleitzahl, kontonummer));
 	}
@@ -23,7 +19,6 @@ public class IbanBerechnen2 {
 			nummer1 = "0"+ nummer1;
 		}
 		return (nummer1+nummer);
-		
 	}
 	
 	public static String leanderkennungmistkacke(String laenderkennung) {
@@ -31,7 +26,6 @@ public class IbanBerechnen2 {
 			System.out.println("Die Eingabe war Falsch versuchen sie es nochmal!");
 			System.exit(1);
 		}
-		
 		int buchstabe1 = laenderkennung.charAt(0)-64+9;
 		int buchstabe2 = laenderkennung.charAt(1)-64+9;
 		return buchstabe1+""+buchstabe2+"00";
@@ -47,9 +41,6 @@ public class IbanBerechnen2 {
 	}
 	
 	public static String erzeugeIban (String laenderkennung, String blz, String nummer) {
-		
-		
-		
 		String iban = laenderkennung
 				+""+lifemudolo
 				(blz+""+kontonummerscheisse(nummer)+""
@@ -58,5 +49,3 @@ public class IbanBerechnen2 {
 		return iban;
 	}
 }
-
-
